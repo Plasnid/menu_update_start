@@ -14,11 +14,11 @@ function buildMenu(foodData){
             console.log(`time to delete ${delId}!!`);
             delItem(delId);
         });
-        //
-        let editBtn = document.createElement("button");
-        /*give the new button the text of "edit"*/
+        //create a button element called editBtn
+        
+        //give the new button the text of "edit"
 
-        /*how do we put the food edit button after the delete button?*/
+        //how do we put the food edit button after the delete button?
 
         editBtn.addEventListener("click", function(){
             editId = /*how do we get the food id?*/
