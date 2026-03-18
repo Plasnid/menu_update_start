@@ -16,13 +16,14 @@ function buildMenu(foodData){
         });
         //
         let editBtn = document.createElement("button");
-        editBtn.innerText = "Edit";
-        foodItem.appendChild(editBtn);
+        /*give the new button the text of "edit"*/
+
+        /*how do we put the food edit button after the delete button?*/
+
         editBtn.addEventListener("click", function(){
-            editId = foodData[i].food_id;
-            console.log(`time to edit ${editId}!!`);
-            //delItem(delId);
-            window.location.href = `edit_entry.html?menuItem=${editId}`;
+            editId = /*how do we get the food id?*/
+            
+            window.location.href = `edit_entry.html?menuItem=${/*what goes here? */}`;
         });
         //
         foodList.appendChild(foodItem);
